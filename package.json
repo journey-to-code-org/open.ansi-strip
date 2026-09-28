@@ -1,0 +1,43 @@
+{
+  "name": "@journey-to-code/open-ansi-strip",
+  "version": "1.0.0",
+  "description": "Strips ANSI escape sequences from terminal output and detects styled strings.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/journey-to-code-org/open.ansi-strip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/journey-to-code-org/open.ansi-strip/issues"
+  },
+  "homepage": "https://github.com/journey-to-code-org/open.ansi-strip#readme",
+  "keywords": [
+    "ansi",
+    "strip",
+    "terminal",
+    "logs"
+  ],
+  "license": "MIT",
+  "sideEffects": false
+}
